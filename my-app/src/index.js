@@ -5,9 +5,9 @@ import App from "./Component/app";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<div>
+	<React.StrictMode>
 		<App />
-	</div>
+		</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

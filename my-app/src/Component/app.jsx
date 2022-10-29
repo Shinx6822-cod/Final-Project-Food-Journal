@@ -1,16 +1,20 @@
 import React from "react";
-import Button from './Button';
-import FormLogin from "./FormLogin";
-import Menu from './Menu';
+import AddMenu from "./addMenu";
+import Menu from "./Menu";
+import NavbarAft from "./NavbarAftLog";
+import NavbarBef from "./NavbarBefLog";
+import MyList from './MyList';
 
 export default function App() {
 	return (
-		<div className="app">
-   
-   {/* Button untuk Form Login/Register */}
-			<Button/>
-   <FormLogin/>
-   <Menu/>
+		<div>
+			{/* <NavbarBef /> */}
+			<hr/>
+			<NavbarAft />
+			{/* <AddMenu /> */}
+			<Menu />
+			<hr/>
+			<MyList />
 		</div>
 	);
 }
